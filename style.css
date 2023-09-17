@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap");
+:root {
+  --soat: "specimen", sans-serif;
+}
+
+* {
+  font-family: "Orbitron", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+  /* font-family: var(--soat); */
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.box {
+  width: 600px;
+  height: 250px;
+  background-color: rgba(0, 0, 0, 0.849);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* .box > h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: green;
+  height: 30vh;
+  font-size: 100px;
+  font-family: "Roboto Mono", monospace;
+} */
+
+.box > h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: green;
+  font-family: "Roboto Mono", monospace;
+  font-size: 100px;
+}
+.months {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 70px;
+}
+
+.box > p {
+  display: flex;
+  align-items: center;
+  font-family: "Roboto Mono", monospace;
+}
+
+.kunlar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 70px;
+  font-size: 23x;
+  font-family: "Roboto Mono", monospace;
+}
+
+/* #vv {
+  background-color: green;
+}
+#cc {
+  background-color: green;
+} */
+
+.soat1 {
+  color: green;
+  opacity: 0.2;
+}
+.soat2 {
+  color: green;
+  opacity: 0.2;
+}
+.soat3 {
+  color: green;
+  opacity: 0.2;
+}
+.soat4 {
+  color: green;
+  opacity: 0.2;
+}
+.soat5 {
+  color: green;
+  opacity: 0.2;
+}
+.soat6 {
+  color: green;
+  opacity: 0.2;
+}
+.soat7 {
+  color: green;
+  opacity: 0.2;
+}
+.soat8 {
+  color: green;
+  opacity: 0.2;
+}
+.soat9 {
+  color: green;
+  opacity: 0.2;
+}
+
+.oy_yil {
+  display: flex;
+  justify-content: center;
+  color: green;
+  gap: 50px;
+  font-family: "Roboto Mono", monospace;
+}
+
+.kun_oy {
+  display: flex;
+  justify-content: center;
+  color: white;
+  gap: 40px;
+  font-size: 10px;
+  font-family: "Roboto Mono", monospace;
+}
+
+.opacity1 {
+  opacity: 1;
+}
+.black {
+  background-color: #000;
+}
